@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import newtemplate from './components/new'
+import newtemplate from './components/tempTaipei'
 import $ from 'jquery'
 
 
