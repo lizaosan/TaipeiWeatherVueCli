@@ -3,13 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import newtemplate from './components/tempTaipei'
+import tempTaipei from './components/tempTaipei'
 import $ from 'jquery'
 
 
 Vue.config.productionTip = false
 
-Vue.component("newtemplate",newtemplate)
+Vue.component("tempTaipei",tempTaipei)
 
 /* eslint-disable no-new */
 new Vue({

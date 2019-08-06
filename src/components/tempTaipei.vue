@@ -1,4 +1,4 @@
-<template>
+f<template>
   <div class="newtemplate">
         {{ location }}
         <button @click="tempSongShan">松山區</button>

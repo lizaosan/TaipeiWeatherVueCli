@@ -1,6 +1,6 @@
 <template>
   <div>
-    <newtemplate></newtemplate>
+    <tempTaipei></tempTaipei>
   </div>
 </template>
 
