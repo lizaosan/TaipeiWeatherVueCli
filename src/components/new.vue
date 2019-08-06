@@ -1,5 +1,5 @@
 <template>
-  <div class="tempTemplate">
+  <div class="newtemplate">
         {{ location }}
         <button @click="tempSongShan">松山區</button>
         <button @click="tempShinYi">信義區</button>
@@ -11,18 +11,18 @@ import Vue from 'vue';
 import * as d3 from 'd3';
 
 export default {
-  name: 'tempTemplate',
+  name: 'newtemplate',
   data (){
     return {
         jsonUrl: 'https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=1f1aaba5-616a-4a33-867d-878142cac5c4',
         jsonData: [],
         location: '松山區',
         scope: { x: 0, y: 24 },
-        choosedData:[],
+        choosedData: [],
     };
   },
   mounted(){
-      var that = this;
+      const that = this;
       // 保存當前 this 對象，如果在 success 裡使用 this，this 就變成指向 ajax 請求本身。 
     $.ajax({
         url: that.jsonUrl,
